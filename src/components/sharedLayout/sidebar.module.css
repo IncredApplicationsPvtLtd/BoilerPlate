@@ -1,0 +1,34 @@
+.sidebar {
+  grid-column: sidebar-start/sidebar-end;
+  background-color: var(--clr-400);
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.6rem;
+  
+}
+
+.sidebar__links{
+    display: flex;
+    gap:1rem;
+    cursor: pointer;
+    align-items: center;
+    color:#a6a6a6;
+    padding:0 3px 0 15px;  
+    
+}
+
+.sidebar__link{
+    color:#a6a6a6;
+}
+
+.sidebar__links:hover,.sidebar__link:hover{
+    color:var(--clr-white);
+    background-color:grey;
+    
+}

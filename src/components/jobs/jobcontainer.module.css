@@ -1,0 +1,10 @@
+.all__jobs{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(min-content,30.5rem));
+    column-gap:2rem;
+    row-gap:5rem;
+    margin-top:3rem;
+}
+.total__found{
+    margin-top:7rem;
+}
